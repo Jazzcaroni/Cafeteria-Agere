@@ -6,13 +6,17 @@
       'vendors/bootstrap-4.3.1/bootstrap';
 
 @import
-      'base/base';
+      'base/reset',
+      'base/base',
+      'base/typography';
 
 @import
+      'layout/nav',
       'layout/header';
 
-  @import
 
+  @import
+        'components/logo',
         'components/buttons',
         'components/cover';
 
