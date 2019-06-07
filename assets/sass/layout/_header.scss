@@ -1,14 +1,19 @@
-.container {
+.contenedor {
   margin-left: 0;
   margin-right: 0;
+
 }
 
 .imagen {
+  width: 60rem;
+  height: 27.68rem;
   float: left;
-  padding-right: 50px;
+  padding-right: 80px;
 
 }
 
 .titulo {
-  margin-left: 40px;
+  margin-left: 10px;
+  padding-top: 60px;
+  display: table-caption;
 }

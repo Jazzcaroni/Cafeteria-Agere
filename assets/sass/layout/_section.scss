@@ -4,17 +4,24 @@
 
 
 .box {
+  position: absolute;
   float: left;
-  width: 469px;
-  height: 136px;
-  padding: 40px;
+  margin-top: 4.09rem;
+  margin-left: 27.16rem;
+  width: 29rem;
+  height: 8.5rem;
+  padding: 20px 40px 40px 40px;
   background-color: $white;
   display: flex;
   clear: left;
+   .mil {
+     width: 150px;
+   }
 }
 
 .cuadros {
   clear: left;
+
 }
 
 .box2 {

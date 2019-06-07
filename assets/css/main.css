@@ -9716,7 +9716,7 @@ body {
 
 h1 {
   font-family: "PT Mono", monospace;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 h2 {
@@ -9732,16 +9732,24 @@ h3 {
 h4 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  margin-top: 10px;
 }
 
-.container {
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.container-fluid {
   height: 100%;
-  vertical-align: middle;
+  padding-right: 200px;
 }
 
 nav {
   margin-top: 10px;
   display: inline-block;
+  margin-bottom: 25px;
 }
 
 .texto {
@@ -9749,25 +9757,29 @@ nav {
 }
 
 .container__navigation {
-  margin-right: 40px;
-  margin-bottom: 20px;
+  margin-right: 180px;
   float: right;
 }
 
 .container__menu {
   display: inline-block;
   margin-left: 40px;
-  padding-right: 200px;
+  vertical-align: top;
+  margin-top: 10px;
+  color: #eeeded;
 }
 
 .container__menu ul li {
   display: inline-table;
   padding-left: 10px;
-  color: #989797;
 }
 
 .container__menu ul {
   padding-top: 0;
+}
+
+.container {
+  max-width: 1280px;
 }
 
 * {
@@ -9775,13 +9787,19 @@ nav {
 }
 
 .box {
+  position: absolute;
   float: left;
-  width: 469px;
-  height: 136px;
-  padding: 40px;
+  margin-top: 4.09rem;
+  margin-left: 27.16rem;
+  width: 29rem;
+  height: 8.5rem;
+  padding: 20px 40px 40px 40px;
   background-color: #fff;
   display: flex;
   clear: left;
+}
+.box .mil {
+  width: 150px;
 }
 
 .cuadros {
@@ -9837,30 +9855,34 @@ nav {
   height: 220px;
 }
 
-.container {
+.contenedor {
   margin-left: 0;
   margin-right: 0;
 }
 
 .imagen {
+  width: 60rem;
+  height: 27.68rem;
   float: left;
-  padding-right: 50px;
+  padding-right: 80px;
 }
 
 .titulo {
-  margin-left: 40px;
+  margin-left: 10px;
+  padding-top: 60px;
+  display: table-caption;
 }
 
 .logo {
   width: 30px;
-  padding-left: 0;
+  margin-left: 60px;
 }
 
 .boton1 {
   background-color: inherit;
   /* white */
   border-radius: none;
-  color: #989797;
+  color: #eeeded;
   padding: 8px 8px;
   text-align: center;
   display: inline-block;

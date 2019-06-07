@@ -1,26 +1,28 @@
-.container {
+.container-fluid {
   height: 100%;
-  vertical-align: middle;
+  padding-right: 200px;
 }
-
 
 nav {
   margin-top: 10px;
   display: inline-block;
+  margin-bottom: 25px;
 }
 .texto {
   font-family: $pt-mono;
 }
 .container__navigation {
-    margin-right: 40px;
-    margin-bottom: 20px;
+    margin-right: 180px;
     float: right;
 
 }
 .container__menu {
   display: inline-block;
   margin-left: 40px;
-  padding-right: 200px;
+  vertical-align: top;
+  margin-top: 10px;
+  color: $isabelline;
+
 
 }
 .container__menu {
@@ -28,7 +30,6 @@ nav {
     li {
       display: inline-table;
       padding-left: 10px;
-      color: $spanish-gray;
     }
   }
 }
@@ -36,4 +37,8 @@ nav {
   ul {
     padding-top: 0;
      }
+}
+
+.container__navigation__botones {
+
 }
