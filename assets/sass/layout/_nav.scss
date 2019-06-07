@@ -1,3 +1,39 @@
+.container {
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+nav {
+  margin-top: 10px;
+  display: inline-block;
+}
 .texto {
   font-family: $pt-mono;
+}
+.container__navigation {
+    margin-right: 40px;
+    margin-bottom: 20px;
+    float: right;
+
+}
+.container__menu {
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 200px;
+
+}
+.container__menu {
+  ul {
+    li {
+      display: inline-table;
+      padding-left: 10px;
+      color: $spanish-gray;
+    }
+  }
+}
+.container__menu {
+  ul {
+    padding-top: 0;
+     }
 }

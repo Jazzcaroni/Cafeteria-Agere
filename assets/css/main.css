@@ -9719,7 +9719,7 @@ h1 {
   font-size: 40px;
 }
 
-h3 {
+h2 {
   font-family: "PT Mono", monospace;
   font-size: 30px;
 }
@@ -9729,48 +9729,154 @@ h3 {
   font-size: 16px;
 }
 
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  height: 100%;
+  vertical-align: middle;
+}
+
+nav {
+  margin-top: 10px;
+  display: inline-block;
+}
+
 .texto {
   font-family: "PT Mono", monospace;
 }
 
-.container__row__bloque1 {
+.container__navigation {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.container__menu {
+  display: inline-block;
+  margin-left: 40px;
+  padding-right: 200px;
+}
+
+.container__menu ul li {
+  display: inline-table;
+  padding-left: 10px;
+  color: #989797;
+}
+
+.container__menu ul {
+  padding-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
   width: 469px;
   height: 136px;
-  display: block;
+  padding: 40px;
   background-color: #fff;
-  left: 431;
-  position: absolute;
-  top: 406px;
-  z-index: 1;
+  display: flex;
+  clear: left;
 }
 
-.container__row__bloque2 {
+.cuadros {
+  clear: left;
+}
+
+.box2 {
+  float: left;
   width: 134px;
   height: 136px;
-  display: block;
   background-color: #e4572e;
-  left: 431;
-  position: absolute;
-  top: 406px;
-  z-index: 0;
+  text-align: center;
+  color: #fff;
+}
+.box2 .fas {
+  margin-top: 25px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.container__row__imagen__foto {
-  width: 899px;
-  height: 440px;
-  display: block;
-  left: 0;
+.box3 {
   position: absolute;
-  top: 100px;
-  z-index: 0;
+  float: left;
+  width: 134px;
+  height: 136px;
+  padding: 50px;
+  background-color: #f5b70e;
+}
+
+.box4 {
+  float: left;
+  width: 410px;
+  height: 212px;
+  padding: 50px;
+  clear: left;
+}
+
+.box5 {
+  float: left;
+  width: 460px;
+  height: 230px;
+  background-color: #3C91E6;
+}
+
+.mapa {
+  width: 397px;
+  height: 298px;
+}
+
+.cafe {
+  object-fit: cover;
+  width: 100px;
+  height: 220px;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.imagen {
+  float: left;
+  padding-right: 50px;
+}
+
+.titulo {
+  margin-left: 40px;
 }
 
 .logo {
-  width: 50px;
+  width: 30px;
+  padding-left: 0;
 }
 
-.btn {
+.boton1 {
+  background-color: inherit;
+  /* white */
   border-radius: none;
+  color: #989797;
+  padding: 8px 8px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 300;
+}
+
+.boton2 {
+  background-color: #4CA866;
+  /* Green */
+  border-radius: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=main.css.map */

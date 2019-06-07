@@ -1,11 +1,14 @@
-.container__row__imagen__foto {
+.container {
+  margin-left: 0;
+  margin-right: 0;
+}
 
-    width: 899px;
-    height: 440px;
-    display: block;
-    left: 0;
-    position: absolute;
-    top: 100px;
-    z-index: 0;
+.imagen {
+  float: left;
+  padding-right: 50px;
 
+}
+
+.titulo {
+  margin-left: 40px;
 }

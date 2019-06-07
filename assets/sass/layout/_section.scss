@@ -1,22 +1,71 @@
-
-.container__row__bloque1  {
-  width: 469px;
-  height: 136px;
-  display: block;
-  background-color: $white;
-  left: 431;
-  position: absolute;
-  top: 406px;
-  z-index: 1;
+* {
+  box-sizing: border-box;
 }
 
-.container__row__bloque2  {
+
+.box {
+  float: left;
+  width: 469px;
+  height: 136px;
+  padding: 40px;
+  background-color: $white;
+  display: flex;
+  clear: left;
+}
+
+.cuadros {
+  clear: left;
+}
+
+.box2 {
+  float: left;
   width: 134px;
   height: 136px;
-  display: block;
   background-color: $flame;
-  left: 431;
+  text-align: center;
+  color: $white;
+
+ .fas {
+   margin-top: 25px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+.box3 {
   position: absolute;
-  top: 406px;
-  z-index: 0;
+  float: left;
+  width: 134px;
+  height: 136px;
+  padding: 50px;
+  background-color: $coral;
+
+}
+
+.box4 {
+  float: left;
+  width: 410px;
+  height: 212px;
+  padding: 50px;
+  clear: left;
+
+}
+.box5 {
+  float: left;
+  width: 460px;
+  height: 230px;
+  background-color: $blue-de-france;
+}
+
+
+.mapa {
+  width: 397px;
+  height: 298px;
+}
+
+.cafe {
+ object-fit: cover;
+ width: 100px;
+ height: 220px;
+
 }
