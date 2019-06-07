@@ -9870,7 +9870,7 @@ nav {
 .cafe img {
   width: 6rem;
   height: 10.5rem;
-  object-fit: none;
+  object-fit: cover;
 }
 
 .maquina {
