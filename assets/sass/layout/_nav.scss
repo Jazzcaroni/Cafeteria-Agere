@@ -1,6 +1,6 @@
 .container-fluid {
   height: 100%;
-  padding-right: 200px;
+  padding-right: 0px;
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
   font-family: $pt-mono;
 }
 .container__navigation {
-    margin-right: 180px;
+    margin-right: 63px;
     float: right;
 
 }
@@ -22,6 +22,7 @@ nav {
   vertical-align: top;
   margin-top: 10px;
   color: $isabelline;
+  padding-right: 390px;
 
 
 }

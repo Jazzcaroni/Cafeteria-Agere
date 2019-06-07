@@ -25,39 +25,44 @@
 }
 
 .box2 {
+  position: absolute;
   float: left;
-  width: 134px;
-  height: 136px;
+  width: 8.3rem;
+  height: 8.5rem;
+  margin-left: 55rem;
+  margin-top: -10rem;
   background-color: $flame;
   text-align: center;
   color: $white;
+  z-index: 1;
 
- .fas {
-   margin-top: 25px;
-    text-align: center;
-    vertical-align: middle;
+    .fas {
+      margin-top: 25px;
+      text-align: center;
+      vertical-align: middle;
   }
 }
 
 .box3 {
   position: absolute;
   float: left;
-  width: 134px;
-  height: 136px;
-  padding: 50px;
+  width: 8.3rem;
+  height: 8.5rem;
+  margin-left: 56rem;
+  margin-top: -8.7rem;
   background-color: $coral;
-
 }
 
 .box4 {
   float: left;
-  width: 410px;
+  width: 435px;
   height: 212px;
-  padding: 50px;
+  padding: 73px;
   clear: left;
 
 }
 .box5 {
+  margin-top: -3px;
   float: left;
   width: 460px;
   height: 230px;
@@ -66,13 +71,34 @@
 
 
 .mapa {
-  width: 397px;
-  height: 298px;
+  float: left;
+  position: absolute;
+  width: 24.6rem;
+  height: 13.1rem;
+  padding-left: 25.4rem;
+  padding-top: 1.5rem;
+}
+.cafe {
+  position: absolute;
+  float: left;
+  padding-left: 52rem;
+  margin-top: -3px;
+
+  img{
+
+  	width: 6rem;
+  	height: 10.5rem;
+  	object-fit: none;
+
+  }
+
 }
 
-.cafe {
- object-fit: cover;
- width: 100px;
- height: 220px;
+
+.maquina {
+  margin-top: -3px;
+  width: 23.8rem;
+  height: 16.68rem;
+  float: left;
 
 }
